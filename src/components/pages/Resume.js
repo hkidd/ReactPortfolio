@@ -3,7 +3,7 @@ import React from 'react';
 export default function Resume() {
   return (
     <div>
-      <h1>My Resume</h1>
+      <h2>My Resume</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
@@ -16,9 +16,6 @@ export default function Resume() {
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
       </p>
-      <footer className="Footer">
-      <h5>Made by Harrison Kidd 2021</h5>
-    </footer>
     </div>
   );
 }

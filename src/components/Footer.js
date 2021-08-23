@@ -1,17 +1,11 @@
-import React from 'react';
-// Here we import the Footer.css file to grant access to some additional classNames
-// import '../styles/Footer.css';
+import React from "react";
 
-// TODO: Create a styles object called "styles"
-
-function Footer() {
-  // TODO: Add a style attribute to Footer
-
+export default function Footer() {
   return (
-    <Footer className="Footer">
-      <h4>Made by Harrison Kidd 2021</h4>
-    </Footer>
+    <div>
+      <footer>
+        <h5>by Harrison Kidd 2021</h5>
+      </footer>
+    </div>
   );
-}
-
-export default Footer;
+};

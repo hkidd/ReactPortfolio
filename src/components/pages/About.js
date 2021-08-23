@@ -1,20 +1,26 @@
 import React from 'react';
+import Headshot from '../images/IMG_0527.jpeg';
+
+const styles = {
+  profileImage: {
+    display: 'flex',
+    margin: 'auto',
+    width: '30%',
+    height: 'auto',
+    border: '3px solid var(--main-accent)',
+    borderRadius: '20px',
+  }
+}
+
 
 export default function About() {
   return (
     <div>
-      <h1>About Me</h1>
+      <h2>About Me</h2>
+      <img src={Headshot} style={styles.profileImage} alt="My headshot" class="profile-image"></img>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      Hi there!  My name is Harrison Kidd and I am an aspiring software developer.  Check out some of the cool things that I've been working on!
       </p>
-      <footer className="Footer">
-      <h5>Made by Harrison Kidd 2021</h5>
-    </footer>
     </div>
   );
 }
