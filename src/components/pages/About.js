@@ -7,7 +7,6 @@ const styles = {
     margin: "auto",
     width: "30%",
     height: "auto",
-    border: "3px solid var(--main-accent)",
     borderRadius: "20px",
   },
   header: {

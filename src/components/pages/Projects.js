@@ -9,9 +9,6 @@ const styles = {
     padding: "10px",
     margin: "10px",
   },
-  projectPage: {
-    display: "flex",
-  },
   header: {
     width: "75%",
     margin: "0 auto",
