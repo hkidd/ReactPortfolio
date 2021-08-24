@@ -1,8 +1,16 @@
 import React from 'react';
 
+const styles = {
+  navList: {
+    width: '100%',
+    margin: '0 auto',
+    justifyContent: 'center',
+  }
+}
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul style={styles.navList} className="nav nav-tabs">
       <li className="nav-item">
         <a
           href="#about"

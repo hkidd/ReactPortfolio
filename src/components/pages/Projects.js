@@ -6,27 +6,40 @@ import NoteTaker from "../assets/images/NoteTakerEx.png";
 const styles = {
   card: {
     width: "18rem",
+    padding: '10px',
+    margin: '10px',
   },
   projectPage: {
     display: "flex",
   },
+  header: {
+    width: '75%',
+    margin: '0 auto',
+    textAlign: 'center',
+  },
+  p: {
+    width: '60%',
+    margin: '0 auto',
+    textAlign: 'center',
+  },
+  cols: {
+    width: '75%',
+    margin: '0 auto',
+    justifyContent: 'center',
+  }
 };
 
 export default function Portfolio() {
   return (
     <div class="container">
-      <h2>My Projects</h2>
-      <p>
+      <h2 style={styles.header}>My Projects</h2>
+      <p style={styles.p}>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
         Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
         dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos.
+        sodales volutpat et, hendrerit ut dolor.
       </p>
-      <div class="row justify-content-around">
+      <div style={styles.cols} class="row justify-content-around">
         <div class="col-4">
           <div class="card" style={styles.card}>
             <img src={Jobster} class="card-img-top" alt="..." />
@@ -37,7 +50,10 @@ export default function Portfolio() {
                 the bulk of the card's content.
               </p>
               <a href="Github" class="btn btn-primary">
-                Go somewhere
+                Live Deployment
+              </a>
+              <a href="Github" class="btn btn-primary">
+                GitHub 
               </a>
             </div>
           </div>
@@ -50,7 +66,10 @@ export default function Portfolio() {
                 the bulk of the card's content.
               </p>
               <a href="Github" class="btn btn-primary">
-                Go somewhere
+                Live Deployment
+              </a>
+              <a href="Github" class="btn btn-primary">
+                GitHub 
               </a>
             </div>
           </div>
@@ -63,7 +82,10 @@ export default function Portfolio() {
                 the bulk of the card's content.
               </p>
               <a href="Github" class="btn btn-primary">
-                Go somewhere
+                Live Deployment
+              </a>
+              <a href="Github" class="btn btn-primary">
+                GitHub 
               </a>
             </div>
           </div>
@@ -78,7 +100,10 @@ export default function Portfolio() {
                 bulk of the card's content.
               </p>
               <a href="Github" class="btn btn-primary">
-                Go somewhere
+                Live Deployment
+              </a>
+              <a href="Github" class="btn btn-primary">
+                GitHub 
               </a>
             </div>
           </div>
@@ -91,7 +116,10 @@ export default function Portfolio() {
                 bulk of the card's content.
               </p>
               <a href="Github" class="btn btn-primary">
-                Go somewhere
+                Live Deployment
+              </a>
+              <a href="Github" class="btn btn-primary">
+                GitHub 
               </a>
             </div>
           </div>
@@ -104,7 +132,10 @@ export default function Portfolio() {
                 bulk of the card's content.
               </p>
               <a href="Github" class="btn btn-primary">
-                Go somewhere
+                Live Deployment
+              </a>
+              <a href="Github" class="btn btn-primary">
+                GitHub 
               </a>
             </div>
           </div>
