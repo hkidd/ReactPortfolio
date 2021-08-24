@@ -6,27 +6,27 @@ import NoteTaker from "../assets/images/NoteTakerEx.png";
 const styles = {
   card: {
     width: "18rem",
-    padding: '10px',
-    margin: '10px',
+    padding: "10px",
+    margin: "10px",
   },
   projectPage: {
     display: "flex",
   },
   header: {
-    width: '75%',
-    margin: '0 auto',
-    textAlign: 'center',
+    width: "75%",
+    margin: "0 auto",
+    textAlign: "center",
   },
   p: {
-    width: '60%',
-    margin: '0 auto',
-    textAlign: 'center',
+    width: "60%",
+    margin: "0 auto",
+    textAlign: "center",
   },
   cols: {
-    width: '75%',
-    margin: '0 auto',
-    justifyContent: 'center',
-  }
+    width: "75%",
+    margin: "0 auto",
+    justifyContent: "center",
+  },
 };
 
 export default function Portfolio() {
@@ -53,7 +53,7 @@ export default function Portfolio() {
                 Live Deployment
               </a>
               <a href="Github" class="btn btn-primary">
-                GitHub 
+                GitHub
               </a>
             </div>
           </div>
@@ -69,7 +69,7 @@ export default function Portfolio() {
                 Live Deployment
               </a>
               <a href="Github" class="btn btn-primary">
-                GitHub 
+                GitHub
               </a>
             </div>
           </div>
@@ -85,7 +85,7 @@ export default function Portfolio() {
                 Live Deployment
               </a>
               <a href="Github" class="btn btn-primary">
-                GitHub 
+                GitHub
               </a>
             </div>
           </div>
@@ -96,14 +96,14 @@ export default function Portfolio() {
             <div class="card-body">
               <h5 class="card-title">Jobster</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
               </p>
               <a href="Github" class="btn btn-primary">
                 Live Deployment
               </a>
               <a href="Github" class="btn btn-primary">
-                GitHub 
+                GitHub
               </a>
             </div>
           </div>
@@ -112,14 +112,14 @@ export default function Portfolio() {
             <div class="card-body">
               <h5 class="card-title">Pickflix & Grill</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
               </p>
               <a href="Github" class="btn btn-primary">
                 Live Deployment
               </a>
               <a href="Github" class="btn btn-primary">
-                GitHub 
+                GitHub
               </a>
             </div>
           </div>
@@ -128,14 +128,14 @@ export default function Portfolio() {
             <div class="card-body">
               <h5 class="card-title">NoteTaker</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
               </p>
               <a href="Github" class="btn btn-primary">
                 Live Deployment
               </a>
               <a href="Github" class="btn btn-primary">
-                GitHub 
+                GitHub
               </a>
             </div>
           </div>

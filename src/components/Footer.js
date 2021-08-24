@@ -10,21 +10,21 @@ const styles = {
     top: "-10px",
   },
   footer: {
-      width: '100%',
-      margin: '0 auto',
-      textAlign: 'center',
+    width: "100%",
+    margin: "0 auto",
+    textAlign: "center",
   },
   list: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    overflow: 'auto',
-    listStyleType: 'none',
-    margin: '0 auto',
-    justifyContent: 'center',
+    display: "flex",
+    flexWrap: "wrap",
+    overflow: "auto",
+    listStyleType: "none",
+    margin: "0 auto",
+    justifyContent: "center",
   },
   li: {
-    padding: '20px',
-  }
+    padding: "20px",
+  },
 };
 
 export default function Footer() {
@@ -32,6 +32,9 @@ export default function Footer() {
     <div class="container">
       <footer style={styles.footer}>
         <h5 class="follow-me">Follow Me</h5>
+
+        {/* Font Awesome Icons */}
+
         <ul style={styles.list}>
           <li style={styles.li}>
             <a
@@ -78,8 +81,10 @@ export default function Footer() {
             </a>
           </li>
         </ul>
+
         <h5>by Harrison Kidd 2021</h5>
+        
       </footer>
     </div>
   );
-};
+}

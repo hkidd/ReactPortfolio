@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
 const styles = {
   navList: {
-    width: '100%',
-    margin: '0 auto',
-    justifyContent: 'center',
-  }
-}
+    width: "100%",
+    margin: "0 auto",
+    justifyContent: "center",
+  },
+};
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -14,8 +14,8 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#about"
-          onClick={() => handlePageChange('About')}
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          onClick={() => handlePageChange("About")}
+          className={currentPage === "About" ? "nav-link active" : "nav-link"}
         >
           About Me
         </a>
@@ -23,8 +23,10 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#portfolio"
-          onClick={() => handlePageChange('Portfolio')}
-          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+          onClick={() => handlePageChange("Portfolio")}
+          className={
+            currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+          }
         >
           Portfolio
         </a>
@@ -32,8 +34,8 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#resume"
-          onClick={() => handlePageChange('Resume')}
-          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+          onClick={() => handlePageChange("Resume")}
+          className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
         >
           Resume
         </a>
@@ -41,8 +43,8 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#contact"
-          onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+          onClick={() => handlePageChange("Contact")}
+          className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
           Contact
         </a>

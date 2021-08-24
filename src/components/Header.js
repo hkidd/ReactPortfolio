@@ -2,11 +2,11 @@ import React from "react";
 
 const styles = {
   header: {
-    width: '100%',
-    margin: '0 auto',
-    textAlign: 'center',
-  }
-}
+    width: "100%",
+    margin: "0 auto",
+    textAlign: "center",
+  },
+};
 
 export default function Header() {
   return (
@@ -16,4 +16,4 @@ export default function Header() {
       </header>
     </div>
   );
-};
+}
