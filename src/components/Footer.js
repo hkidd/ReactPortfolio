@@ -87,7 +87,7 @@ export default function Footer() {
           </li>
         </ul>
 
-        <h5 style={styles.footer}>by Harrison Kidd 2021</h5>
+        <h5 style={styles.footer}>Harrison Kidd - 2021</h5>
 
       </footer>
     </div>

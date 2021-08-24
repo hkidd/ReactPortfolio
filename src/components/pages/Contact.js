@@ -5,9 +5,10 @@ const styles = {
     width: "100%",
     margin: "0 auto",
     textAlign: "center",
+    padding: "20px",
   },
   form: {
-    width: "60%",
+    width: "40%",
     margin: "0 auto",
     textAlign: "center",
   },
