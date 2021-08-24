@@ -1,4 +1,5 @@
 # ReactPortfolio
+Building a project portfolio using React to showcase some of my recent projects.
 
 ## User Story
 
@@ -49,3 +50,11 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Contact
+Harrison Kidd
+
+<a href="mailto:harrisonakidd@gmail.com">harrisonakidd@gmail.com</a>
