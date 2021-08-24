@@ -1,5 +1,5 @@
 # ReactPortfolio
-Building a project portfolio using React to showcase some of my recent projects.
+Building a single-page web app portfolio using React to showcase some of my recent projects.
 
 ## User Story
 
