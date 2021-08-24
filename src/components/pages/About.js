@@ -1,5 +1,5 @@
 import React from 'react';
-import Headshot from '../images/IMG_0527.jpeg';
+import Headshot from '../assets/images/IMG_0527.jpeg';
 
 const styles = {
   profileImage: {
@@ -15,7 +15,7 @@ const styles = {
 
 export default function About() {
   return (
-    <div>
+    <div class="container">
       <h2>About Me</h2>
       <img src={Headshot} style={styles.profileImage} alt="My headshot" class="profile-image"></img>
       <p>

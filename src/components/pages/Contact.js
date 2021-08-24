@@ -1,19 +1,19 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const styles = {
-  span: {
-    height: "1px",
-    width: "1px",
-    position: "absolute",
-    overflow: "hidden",
-    top: "-10px",
-  },
-};
+// const styles = {
+//   span: {
+//     height: "1px",
+//     width: "1px",
+//     position: "absolute",
+//     overflow: "hidden",
+//     top: "-10px",
+//   },
+// };
 
 export default function Contact() {
   return (
-    <div>
+    <div class="container">
       <h2>Contact Me</h2>
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Name:</label>
@@ -28,7 +28,7 @@ export default function Contact() {
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
 
-      <h2 class="follow-me">Follow Me</h2>
+      {/* <h2 class="follow-me">Follow Me</h2>
       <ul>
         <li>
           <a
@@ -60,7 +60,7 @@ export default function Contact() {
             <span style={styles.span}>My Instagram</span>
           </a>
         </li>
-      </ul>
+      </ul> */}
     </div>
   );
 }

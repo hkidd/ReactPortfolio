@@ -1,25 +1,20 @@
 import React from "react";
+import Jobster from "../assets/images/JobsterHome2.png";
+import Pickflix from "../assets/images/LandingPageEx.png";
+import NoteTaker from "../assets/images/NoteTakerEx.png";
 
 const styles = {
   card: {
     width: "18rem",
   },
-  heading: {
-    background: "#3f51b5",
-    minHeight: 50,
-    lineHeight: 3.5,
-    fontSize: "1.2rem",
-    color: "white",
-    padding: "0 20px",
-  },
-  content: {
-    padding: 20,
+  projectPage: {
+    display: "flex",
   },
 };
 
 export default function Portfolio() {
   return (
-    <div>
+    <div class="container">
       <h2>My Projects</h2>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
@@ -31,48 +26,90 @@ export default function Portfolio() {
         libero. Class aptent taciti sociosqu ad litora torquent per conubia
         nostra, per inceptos himenaeos.
       </p>
-      <div class="card" style={styles.card}>
-        <img src="..." class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="Github" class="btn btn-primary">
-            Go somewhere
-          </a>
+      <div class="row justify-content-around">
+        <div class="col-4">
+          <div class="card" style={styles.card}>
+            <img src={Jobster} class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Jobster</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="Github" class="btn btn-primary">
+                Go somewhere
+              </a>
+            </div>
+          </div>
+          <div class="card" style={styles.card}>
+            <img src={Pickflix} class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Pickflix & Grill</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="Github" class="btn btn-primary">
+                Go somewhere
+              </a>
+            </div>
+          </div>
+          <div class="card" style={styles.card}>
+            <img src={NoteTaker} class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">NoteTaker</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="Github" class="btn btn-primary">
+                Go somewhere
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style={styles.card}>
+            <img src={Jobster} class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Jobster</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </p>
+              <a href="Github" class="btn btn-primary">
+                Go somewhere
+              </a>
+            </div>
+          </div>
+          <div class="card" style={styles.card}>
+            <img src={Pickflix} class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Pickflix & Grill</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </p>
+              <a href="Github" class="btn btn-primary">
+                Go somewhere
+              </a>
+            </div>
+          </div>
+          <div class="card" style={styles.card}>
+            <img src={NoteTaker} class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">NoteTaker</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </p>
+              <a href="Github" class="btn btn-primary">
+                Go somewhere
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="card" style={styles.card}>
-        <img src="..." class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="Github" class="btn btn-primary">
-            Go somewhere
-          </a>
-        </div>
-      </div>
-      <div class="card" style={styles.card}>
-        <img src="..." class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="Github" class="btn btn-primary">
-            Go somewhere
-          </a>
-        </div>
-      </div>
-      <footer className="Footer">
-        <h5>Made by Harrison Kidd 2021</h5>
-      </footer>
     </div>
   );
 }
