@@ -16,11 +16,13 @@ const styles = {
     width: "75%",
     margin: "0 auto",
     textAlign: "center",
+    padding: "20px",
   },
   p: {
     width: "60%",
     margin: "0 auto",
     textAlign: "center",
+    padding: "10px",
   },
   cols: {
     width: "75%",
@@ -31,7 +33,7 @@ const styles = {
 
 export default function Portfolio() {
   return (
-    <div class="container">
+    <div className="container">
       <h2 style={styles.header}>My Projects</h2>
       <p style={styles.p}>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
@@ -39,102 +41,102 @@ export default function Portfolio() {
         dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
         sodales volutpat et, hendrerit ut dolor.
       </p>
-      <div style={styles.cols} class="row justify-content-around">
-        <div class="col-4">
-          <div class="card" style={styles.card}>
-            <img src={Jobster} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Jobster</h5>
-              <p class="card-text">
+      <div style={styles.cols} className="row justify-content-around">
+        <div className="col-4">
+          <div className="card" style={styles.card}>
+            <img src={Jobster} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">Jobster</h5>
+              <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="Github" class="btn btn-primary">
+              <a href="Github" className="btn btn-primary">
                 Live Deployment
               </a>
-              <a href="Github" class="btn btn-primary">
+              <a href="Github" className="btn btn-primary">
                 GitHub
               </a>
             </div>
           </div>
-          <div class="card" style={styles.card}>
-            <img src={Pickflix} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Pickflix & Grill</h5>
-              <p class="card-text">
+          <div className="card" style={styles.card}>
+            <img src={Pickflix} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">Pickflix & Grill</h5>
+              <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="Github" class="btn btn-primary">
+              <a href="Github" className="btn btn-primary">
                 Live Deployment
               </a>
-              <a href="Github" class="btn btn-primary">
+              <a href="Github" className="btn btn-primary">
                 GitHub
               </a>
             </div>
           </div>
-          <div class="card" style={styles.card}>
-            <img src={NoteTaker} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">NoteTaker</h5>
-              <p class="card-text">
+          <div className="card" style={styles.card}>
+            <img src={NoteTaker} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">NoteTaker</h5>
+              <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="Github" class="btn btn-primary">
+              <a href="Github" className="btn btn-primary">
                 Live Deployment
               </a>
-              <a href="Github" class="btn btn-primary">
+              <a href="Github" className="btn btn-primary">
                 GitHub
               </a>
             </div>
           </div>
         </div>
-        <div class="col-4">
-          <div class="card" style={styles.card}>
-            <img src={Jobster} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Jobster</h5>
-              <p class="card-text">
+        <div className="col-4">
+          <div className="card" style={styles.card}>
+            <img src={Jobster} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">Jobster</h5>
+              <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="Github" class="btn btn-primary">
+              <a href="Github" className="btn btn-primary">
                 Live Deployment
               </a>
-              <a href="Github" class="btn btn-primary">
+              <a href="Github" className="btn btn-primary">
                 GitHub
               </a>
             </div>
           </div>
-          <div class="card" style={styles.card}>
-            <img src={Pickflix} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Pickflix & Grill</h5>
-              <p class="card-text">
+          <div className="card" style={styles.card}>
+            <img src={Pickflix} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">Pickflix & Grill</h5>
+              <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="Github" class="btn btn-primary">
+              <a href="Github" className="btn btn-primary">
                 Live Deployment
               </a>
-              <a href="Github" class="btn btn-primary">
+              <a href="Github" className="btn btn-primary">
                 GitHub
               </a>
             </div>
           </div>
-          <div class="card" style={styles.card}>
-            <img src={NoteTaker} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">NoteTaker</h5>
-              <p class="card-text">
+          <div className="card" style={styles.card}>
+            <img src={NoteTaker} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">NoteTaker</h5>
+              <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="Github" class="btn btn-primary">
+              <a href="Github" className="btn btn-primary">
                 Live Deployment
               </a>
-              <a href="Github" class="btn btn-primary">
+              <a href="Github" className="btn btn-primary">
                 GitHub
               </a>
             </div>

@@ -10,7 +10,7 @@ const styles = {
 
 export default function Header() {
   return (
-    <div class="container">
+    <div className="container">
       <header style={styles.header}>
         <h2>Harrison Kidd</h2>
       </header>

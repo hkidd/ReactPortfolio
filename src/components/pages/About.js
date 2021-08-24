@@ -14,23 +14,25 @@ const styles = {
     width: "100%",
     margin: "0 auto",
     textAlign: "center",
+    padding: "20px",
   },
   p: {
     width: "60%",
     margin: "0 auto",
     textAlign: "center",
+    padding: "20px",
   },
 };
 
 export default function About() {
   return (
-    <div class="container">
+    <div className="container">
       <h2 style={styles.header}>About Me</h2>
       <img
         src={Headshot}
         style={styles.profileImage}
         alt="My headshot"
-        class="profile-image"
+        className="profile-image"
       ></img>
       <p style={styles.p}>
         Hi there! My name is Harrison Kidd and I am an aspiring software
