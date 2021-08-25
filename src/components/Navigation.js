@@ -1,4 +1,5 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const styles = {
   navList: {
@@ -10,7 +11,7 @@ const styles = {
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul style={styles.navList} className="nav nav-tabs">
+    <ul style={styles.navList} className="nav nav-pills">
       <li className="nav-item">
         <a
           href="#about"

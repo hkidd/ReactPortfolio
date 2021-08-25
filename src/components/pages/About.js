@@ -1,5 +1,6 @@
 import React from "react";
 import Headshot from "../assets/images/IMG_0527.jpeg";
+import '../assets/css/style.css';
 
 const styles = {
   profileImage: {
@@ -16,7 +17,7 @@ const styles = {
     padding: "20px",
   },
   p: {
-    width: "60%",
+    width: "35%",
     margin: "0 auto",
     textAlign: "center",
     padding: "20px",

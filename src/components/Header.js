@@ -2,7 +2,7 @@ import React from "react";
 
 const styles = {
   header: {
-    width: "75%",
+    width: "100%",
     margin: "0 auto",
     textAlign: "center",
     padding: "20px",

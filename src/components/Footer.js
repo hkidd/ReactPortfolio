@@ -11,7 +11,7 @@ const styles = {
   },
   footer: {
     width: "75%",
-    margin: "0 auto",
+    margin: "0px auto",
     textAlign: "center",
     justifyContent: "center",
   },
@@ -36,7 +36,6 @@ export default function Footer() {
   return (
     <div className="container">
       <footer style={styles.footer}>
-        <h5 style={styles.follow} className="follow-me">Follow Me</h5>
 
         {/* Font Awesome Icons */}
 
