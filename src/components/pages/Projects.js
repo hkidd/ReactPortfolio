@@ -9,6 +9,9 @@ import Weather from "../assets/images/WeatherDashboard.png";
 
 
 const styles = {
+  container: {
+    alignItems: "stretch",
+  },
   card: {
     display: 'flex',
     flexWrap: 'wrap',
@@ -31,7 +34,6 @@ const styles = {
   },
   cols: {
     width: "100%",
-    margin: "0 auto",
     justifyContent: "center",
   },
   a: {
@@ -41,21 +43,20 @@ const styles = {
 
 export default function Portfolio() {
   return (
-    <div>
+    <div className="container">
       <h2 style={styles.header}>My Projects</h2>
       <p style={styles.p}>
         Here are a few of my recent projects that showcase my JavaScript, node.js, express.js and HTML/CSS skills.
       </p>
-      <div style={styles.cols} className="row justify-content-around">
+      <div style={styles.cols} className="d-flex">
         
         <div className="col-sm">
-          <div className="card" style={styles.card}>
+          <div className="card mx-auto" style={styles.card}>
             <img src={Jobster} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title">Jobster</h5>
+              <h5 className="card-title" align="center">Jobster</h5>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              A one stop shop to keep all job app related materials. 
               </p>
               <a style={styles.a} href="Github" className="btn btn-primary">
                 Live Deployment
@@ -66,13 +67,12 @@ export default function Portfolio() {
             </div>
           </div>
 
-          <div className="card" style={styles.card}>
+          <div className="card mx-auto" style={styles.card}>
             <img src={Pickflix} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title">Pickflix & Grill</h5>
+              <h5 className="card-title" align="center">Pickflix & Grill</h5>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              A movie and recipe generator that takes in input from the user.
               </p>
               <a style={styles.a} href="Github" className="btn btn-primary">
                 Live Deployment
@@ -85,13 +85,12 @@ export default function Portfolio() {
         </div>
 
         <div className="col-sm">
-          <div className="card" style={styles.card}>
+          <div className="card mx-auto" style={styles.card}>
             <img src={NoteTaker} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title">Note Taker</h5>
+              <h5 className="card-title" align="center">Note Taker</h5>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              An express.js back end is used to save and retrieve note data from a JSON file.
               </p>
               <a style={styles.a} href="Github" className="btn btn-primary">
                 Live Deployment
@@ -102,13 +101,12 @@ export default function Portfolio() {
             </div>
           </div>
 
-          <div className="card" style={styles.card}>
+          <div className="card mx-auto" style={styles.card}>
             <img src={Budget} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title">Budget Tracker</h5>
+              <h5 className="card-title" align="center">Budget Tracker</h5>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              Added functionality to an existing Budget Tracker application that allows for offline access and functionality.
               </p>
               <a style={styles.a} href="Github" className="btn btn-primary">
                 Live Deployment
@@ -122,13 +120,12 @@ export default function Portfolio() {
 
 
         <div className="col-sm">
-          <div className="card" style={styles.card}>
+          <div className="card mx-auto" style={styles.card}>
             <img src={F1Quiz} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title">Formula 1 Quiz</h5>
+              <h5 className="card-title" align="center">Formula 1 Quiz</h5>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              A timed quiz on random Formula 1 facts that stores the top 3 high scores in local storage.
               </p>
               <a style={styles.a} href="Github" className="btn btn-primary">
                 Live Deployment
@@ -139,13 +136,12 @@ export default function Portfolio() {
             </div>
           </div>
 
-          <div className="card" style={styles.card}>
+          <div className="card mx-auto" style={styles.card}>
             <img src={Weather} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title">Weather Dashboard</h5>
+              <h5 className="card-title" align="center">Weather Dashboard</h5>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              A weather dashboard that runs in the browser and features dynamically updated HTML and CSS.
               </p>
               <a style={styles.a} href="Github" className="btn btn-primary">
                 Live Deployment

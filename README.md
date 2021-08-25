@@ -54,6 +54,9 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
+## Made with the help of
+https://cssgradient.io/
+
 ## Contact
 Harrison Kidd
 

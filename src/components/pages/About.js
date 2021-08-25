@@ -6,7 +6,7 @@ const styles = {
   profileImage: {
     display: "flex",
     margin: "auto",
-    width: "30%",
+    maxWidth: "35%",
     height: "auto",
     borderRadius: "20px",
   },
@@ -33,6 +33,7 @@ export default function About() {
         style={styles.profileImage}
         alt="My headshot"
         className="profile-image"
+        id="headshot"
       ></img>
       <p style={styles.p}>
         Hi there! My name is Harrison Kidd and I am an aspiring software
