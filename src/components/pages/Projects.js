@@ -58,10 +58,10 @@ export default function Portfolio() {
               <p className="card-text">
               A one stop shop to keep all job app related materials. 
               </p>
-              <a style={styles.a} href="Github" className="btn btn-primary">
+              <a style={styles.a} href="https://jobster-group-2.herokuapp.com/aboutus" className="btn btn-primary">
                 Live Deployment
               </a>
-              <a style={styles.a} href="Github" className="btn btn-primary">
+              <a style={styles.a} href="https://github.com/hkidd/Jobster" className="btn btn-primary">
                 GitHub
               </a>
             </div>
@@ -74,10 +74,10 @@ export default function Portfolio() {
               <p className="card-text">
               A movie and recipe generator that takes in input from the user.
               </p>
-              <a style={styles.a} href="Github" className="btn btn-primary">
+              <a style={styles.a} href="https://cnvives.github.io/group-3/" className="btn btn-primary">
                 Live Deployment
               </a>
-              <a style={styles.a} href="Github" className="btn btn-primary">
+              <a style={styles.a} href="https://github.com/cnvives/group-3" className="btn btn-primary">
                 GitHub
               </a>
             </div>
@@ -92,10 +92,10 @@ export default function Portfolio() {
               <p className="card-text">
               An express.js back end is used to save and retrieve note data from a JSON file.
               </p>
-              <a style={styles.a} href="Github" className="btn btn-primary">
+              <a style={styles.a} href="https://note-taker-hk.herokuapp.com " className="btn btn-primary">
                 Live Deployment
               </a>
-              <a style={styles.a} href="Github" className="btn btn-primary">
+              <a style={styles.a} href="https://github.com/hkidd/NoteTaker" className="btn btn-primary">
                 GitHub
               </a>
             </div>
@@ -108,10 +108,10 @@ export default function Portfolio() {
               <p className="card-text">
               Added functionality to an existing Budget Tracker application that allows for offline access and functionality.
               </p>
-              <a style={styles.a} href="Github" className="btn btn-primary">
+              <a style={styles.a} href="https://budget-tracker-hk.herokuapp.com" className="btn btn-primary">
                 Live Deployment
               </a>
-              <a style={styles.a} href="Github" className="btn btn-primary">
+              <a style={styles.a} href="https://github.com/hkidd/BudgetTracker" className="btn btn-primary">
                 GitHub
               </a>
             </div>
@@ -127,10 +127,10 @@ export default function Portfolio() {
               <p className="card-text">
               A timed quiz on random Formula 1 facts that stores the top 3 high scores in local storage.
               </p>
-              <a style={styles.a} href="Github" className="btn btn-primary">
+              <a style={styles.a} href="https://hkidd.github.io/CodeQuiz_HW4/" className="btn btn-primary">
                 Live Deployment
               </a>
-              <a style={styles.a} href="Github" className="btn btn-primary">
+              <a style={styles.a} href="https://github.com/hkidd/CodeQuiz" className="btn btn-primary">
                 GitHub
               </a>
             </div>
@@ -143,10 +143,10 @@ export default function Portfolio() {
               <p className="card-text">
               A weather dashboard that runs in the browser and features dynamically updated HTML and CSS.
               </p>
-              <a style={styles.a} href="Github" className="btn btn-primary">
+              <a style={styles.a} href="https://github.com/hkidd/WeatherDashboard_HW6/deployments/activity_log?environment=github-pages" className="btn btn-primary">
                 Live Deployment
               </a>
-              <a style={styles.a} href="Github" className="btn btn-primary">
+              <a style={styles.a} href="https://github.com/hkidd/WeatherDashboard" className="btn btn-primary">
                 GitHub
               </a>
             </div>
