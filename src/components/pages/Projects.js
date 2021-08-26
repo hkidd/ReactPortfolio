@@ -46,7 +46,7 @@ export default function Portfolio() {
     <div className="container">
       <h2 style={styles.header}>My Projects</h2>
       <p style={styles.p}>
-        Here are a few of my recent projects that showcase my JavaScript, node.js, express.js and HTML/CSS skills.
+        Here are a few of my recent projects showcasing my JavaScript, node.js, express.js and HTML/CSS skills.
       </p>
       <div style={styles.cols} className="d-flex">
         

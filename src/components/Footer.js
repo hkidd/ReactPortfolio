@@ -47,7 +47,7 @@ export default function Footer() {
               rel="noreferrer"
               className="fa fa-github icon"
             >
-              <FontAwesomeIcon className="icon" icon={["fab", "github"]} />
+              <FontAwesomeIcon size="2x" className="icon" icon={["fab", "github"]} />
               <span style={styles.span}>My LinkedIn</span>
             </a>
           </li>
@@ -58,7 +58,7 @@ export default function Footer() {
               rel="noreferrer"
               className="fa fa-linkedin icon"
             >
-              <FontAwesomeIcon className="icon" icon={["fab", "linkedin"]} />
+              <FontAwesomeIcon size="2x" className="icon" icon={["fab", "linkedin"]} />
               <span style={styles.span}>My LinkedIn</span>
             </a>
           </li>
@@ -69,7 +69,7 @@ export default function Footer() {
               rel="noreferrer"
               className="fa fa-twitter icon"
             >
-              <FontAwesomeIcon className="icon" icon={["fab", "twitter"]} />
+              <FontAwesomeIcon size="2x" className="icon" icon={["fab", "twitter"]} />
               <span style={styles.span}>My Twitter</span>
             </a>
           </li>
@@ -80,7 +80,7 @@ export default function Footer() {
               rel="noreferrer"
               className="fa fa-instagram icon"
             >
-              <FontAwesomeIcon className="icon" icon={["fab", "instagram"]} />
+              <FontAwesomeIcon size="2x" className="icon" icon={["fab", "instagram"]} />
               <span style={styles.span}>My Instagram</span>
             </a>
           </li>

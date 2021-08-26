@@ -36,8 +36,7 @@ export default function About() {
         id="headshot"
       ></img>
       <p style={styles.p}>
-        Hi there! My name is Harrison Kidd and I am an aspiring software
-        developer. Check out some of the cool things that I've been working on!
+        Hi there! My name is Harrison Kidd and I am a Full-Stack Javascript Developer. Check out some of the cool things that I've been working on!
       </p>
     </div>
   );
