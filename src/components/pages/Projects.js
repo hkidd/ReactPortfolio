@@ -136,7 +136,7 @@ export default function Portfolio() {
               A timed quiz on random Formula 1 facts that stores the top 3 high scores in local storage.
               </p>
               <a style={styles.a} target="_blank"
-              rel="noreferrer" href="https://hkidd.github.io/CodeQuiz_HW4/" className="btn btn-primary">
+              rel="noreferrer" href="https://hkidd.github.io/CodeQuiz/" className="btn btn-primary">
                 Live Deployment
               </a>
               <a style={styles.a} target="_blank"
@@ -154,7 +154,7 @@ export default function Portfolio() {
               A weather dashboard that runs in the browser and features dynamically updated HTML and CSS.
               </p>
               <a style={styles.a} target="_blank"
-              rel="noreferrer" href="https://github.com/hkidd/WeatherDashboard_HW6/deployments/activity_log?environment=github-pages" className="btn btn-primary">
+              rel="noreferrer" href="https://hkidd.github.io/WeatherDashboard/" className="btn btn-primary">
                 Live Deployment
               </a>
               <a style={styles.a} target="_blank"
