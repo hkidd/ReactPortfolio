@@ -5,7 +5,8 @@ import Pickflix from "../assets/images/LandingPageEx.png";
 import NoteTaker from "../assets/images/NoteTakerEx.png";
 import Budget from "../assets/images/budget_tracker1.png";
 import F1Quiz from "../assets/images/f1quiz.png";
-import Weather from "../assets/images/WeatherDashboard.png";
+// import Weather from "../assets/images/WeatherDashboard.png";
+import SpudsAndDuds from "../assets/images/MainLandingPage.png";
 
 
 const styles = {
@@ -50,7 +51,25 @@ export default function Portfolio() {
       </p>
       <div style={styles.cols} className="d-flex">
         
-        <div className="col-sm">
+      <div className="col-sm">
+        <div className="card mx-auto" style={styles.card}>
+            <img src={SpudsAndDuds} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title" align="center">Spuds and Duds</h5>
+              <p className="card-text">
+              A Full-Stack (MERN) application that provides users with a social movie review community.
+              </p>
+              <a style={styles.a} target="_blank"
+              rel="noreferrer" href="https://spudsandduds.herokuapp.com" className="btn btn-primary">
+                Live Deployment
+              </a>
+              <a style={styles.a} target="_blank"
+              rel="noreferrer" href="https://github.com/hkidd/SpudsandDuds-FullStackMERNApp" className="btn btn-primary">
+                GitHub
+              </a>
+            </div>
+          </div>
+
           <div className="card mx-auto" style={styles.card}>
             <img src={Jobster} className="card-img-top" alt="..." />
             <div className="card-body">
@@ -68,7 +87,9 @@ export default function Portfolio() {
               </a>
             </div>
           </div>
+        </div>
 
+        <div className="col-sm">
           <div className="card mx-auto" style={styles.card}>
             <img src={Pickflix} className="card-img-top" alt="..." />
             <div className="card-body">
@@ -86,9 +107,7 @@ export default function Portfolio() {
               </a>
             </div>
           </div>
-        </div>
 
-        <div className="col-sm">
           <div className="card mx-auto" style={styles.card}>
             <img src={NoteTaker} className="card-img-top" alt="..." />
             <div className="card-body">
@@ -106,7 +125,9 @@ export default function Portfolio() {
               </a>
             </div>
           </div>
+        </div>  
 
+        <div className="col-sm">
           <div className="card mx-auto" style={styles.card}>
             <img src={Budget} className="card-img-top" alt="..." />
             <div className="card-body">
@@ -124,10 +145,7 @@ export default function Portfolio() {
               </a>
             </div>
           </div>
-        </div>
 
-
-        <div className="col-sm">
           <div className="card mx-auto" style={styles.card}>
             <img src={F1Quiz} className="card-img-top" alt="..." />
             <div className="card-body">
@@ -145,26 +163,11 @@ export default function Portfolio() {
               </a>
             </div>
           </div>
+        </div>
+          
 
-          <div className="card mx-auto" style={styles.card}>
-            <img src={Weather} className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title" align="center">Weather Dashboard</h5>
-              <p className="card-text">
-              A weather dashboard that runs in the browser and features dynamically updated HTML and CSS.
-              </p>
-              <a style={styles.a} target="_blank"
-              rel="noreferrer" href="https://hkidd.github.io/WeatherDashboard/" className="btn btn-primary">
-                Live Deployment
-              </a>
-              <a style={styles.a} target="_blank"
-              rel="noreferrer" href="https://github.com/hkidd/WeatherDashboard" className="btn btn-primary">
-                GitHub
-              </a>
-            </div>
-          </div>
         </div>
       </div>
-    </div>
+    // </div>
   );
 }
