@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/css/style.css";
 import Jobster from "../assets/images/JobsterHome2.png";
-import Pickflix from "../assets/images/LandingPageEx.png";
+import Pickflix from "../assets/images/PickflixAndGrill.png";
 import NoteTaker from "../assets/images/NoteTakerEx.png";
 import Budget from "../assets/images/budget_tracker1.png";
 import F1Quiz from "../assets/images/f1quiz.png";
@@ -44,7 +44,7 @@ const styles = {
 
 export default function Portfolio() {
   return (
-    <div className="container">
+    <div id="projects" className="container">
       <h2 style={styles.header}>My Projects</h2>
       <p style={styles.p}>
         Here are a few of my recent projects showcasing my JavaScript, node.js, express.js and HTML/CSS skills.
@@ -168,6 +168,5 @@ export default function Portfolio() {
 
         </div>
       </div>
-    // </div>
   );
 }

@@ -73,7 +73,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="container">
+    <div id="contact" className="container">
       <h2 style={styles.header}>Contact Me</h2>
       <form style={styles.form}>
         <div className="mb-3">

@@ -25,7 +25,7 @@ const styles = {
 
 export default function Resume() {
   return (
-    <div className="container">
+    <div id="resume" className="container">
       <h2 style={styles.header}>Download My Resume</h2>
       <a style={styles.a}
               href="https://drive.google.com/file/d/11HRkUcW2CaAkTgMJgi-zcqe3E252Ksbm/view?usp=sharing"

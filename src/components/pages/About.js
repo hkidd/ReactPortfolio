@@ -26,7 +26,7 @@ const styles = {
 
 export default function About() {
   return (
-    <div className="container">
+    <div id="about" className="container">
       <h2 style={styles.header}>About Me</h2>
       <img
         src={Headshot}
